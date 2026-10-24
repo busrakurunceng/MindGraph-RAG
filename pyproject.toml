@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mindgraph_rag"
+version = "0.1.0"
+description = "Explainable hybrid GraphRAG research prototype for structured psychological case analysis."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Proprietary — see repository documentation" }
+authors = [{ name = "MindGraph-RAG contributors" }]
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.6",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+src = ["src", "tests"]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
