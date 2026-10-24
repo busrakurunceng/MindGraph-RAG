@@ -1,0 +1,15 @@
+# Provenance index for local project datasets.
+# Paths are relative to the repository root.
+
+schema_version = 1
+
+[[datasets]]
+id = "SYN-001"
+source_type = "synthetic"
+path = "data/synthetic/SYN-001.json"
+version = "1.0.0"
+purpose = "Educational CaseRecord fixture for schema and pipeline tests. Not for clinical use."
+license = "Created for this repository; not a third-party licensed work."
+is_fictional = true
+is_real_patient_data = false
+notes = "Project-authored English vignette. Does not describe a real person or patient record."
