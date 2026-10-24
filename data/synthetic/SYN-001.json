@@ -1,0 +1,36 @@
+{
+  "case_id": "SYN-001",
+  "is_synthetic": true,
+  "narrative": "This record is a fully fictional educational vignette. It does not describe a real person. Alex Rivera is a 28-year-old graduate student in the made-up city of Northhaven. For about three weeks, Alex has had difficulty sleeping and trouble focusing on coursework. Alex said they have not had panic attacks. The note does not describe how often the sleep problem occurs, and it does not mention effects on work or relationships.",
+  "symptoms": [
+    {
+      "concept": "sleep_disturbance",
+      "status": "reported",
+      "evidence_span": "difficulty sleeping"
+    },
+    {
+      "concept": "difficulty_concentrating",
+      "status": "reported",
+      "evidence_span": "trouble focusing"
+    },
+    {
+      "concept": "panic_attacks",
+      "status": "absent",
+      "evidence_span": "have not had panic attacks"
+    }
+  ],
+  "duration": {
+    "status": "reported",
+    "value": 3,
+    "unit": "weeks",
+    "evidence_span": "about three weeks"
+  },
+  "functional_impact": {
+    "status": "unknown"
+  },
+  "missing_information": [
+    "symptom_frequency",
+    "functional_impact",
+    "relevant_medical_context"
+  ]
+}
